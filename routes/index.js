@@ -13,9 +13,9 @@ router.get('/about', function(req,res,next) {
 });
 
 //Get sevice page
-router.get('/services', function(req,res,next) {
+router.get('/portfolio', function(req,res,next) {
     var ranNum = Math.random();
-    res.render('Services',{title : 'Services'});
+    res.render('portfolio',{title : 'Portfolio'});
 });
 
 //Get contact page
